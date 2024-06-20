@@ -1,0 +1,16 @@
+
+repair results:
+driver.get("http://localhost/phpFusion/phpFusion-9.03.10/home.php")
+driver.findElement(By.cssSelector(".textbox:nth-child(2)"))
+driver.findElement(By.xpath("/html[1]/body[1]/div[2]/div[1]/div[3]/div[1]/form[1]/div[1]/div[2]/div[2]/div[1]/input[1]"))
+driver.findElement(By.cssSelector(".button"))
+Thread.sleep(1000)
+driver.findElement(By.linkText("Admin Panel"))
+Thread.sleep(1000)
+driver.findElement(By.name("admin_password"))
+driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[3]/form[1]/div[1]/div[1]/button[1]"))
+Thread.sleep(1000)
+driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/section[2]/div[1]/div[3]/div[1]/a[1]"))
+Thread.sleep(1000)
+driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/section[2]/div[1]/form[1]/div[5]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[2]/a[1]"))
+Thread.sleep(2000)
